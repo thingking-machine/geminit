@@ -7,7 +7,7 @@ include:
   - README.md
   - LICENSE.md
 url: https://thingking-machine.github.io
-baseurl: /gemini
+baseurl: /geminit
 
 title: Thingking Machine
 description: This is a machine that reasons.
