@@ -76,7 +76,7 @@ class MachineApp {
         const numValue = parseInt(value, 10);
         this.settings.llm[key] = isNaN(numValue) ? value : numValue;
       } else if (key === 'includeThoughts') {
-        const boolValue = value === 'true';
+        const boolValue = (value === 'true');
         llmSettings[key] = boolValue;
       } else if (['instructions_file'].includes(key)) {
         // Change default Machina instructions file name if received.
