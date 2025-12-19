@@ -40,7 +40,7 @@ self.onmessage = async function (event) {
 		}
 
 		// --- 3. Prepare messages for the API call ---
-		const systemInstructionMessage = {role: "system", parts: [{text: instructionText}]};
+		const systemInstructionMessage = {role: "developer", parts: [{text: instructionText}]};
 		let messagesForApi;
 
 		// Check if the main thread sent any messages
