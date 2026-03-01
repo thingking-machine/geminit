@@ -19,7 +19,7 @@ machine:
   token: gemini_paid
   server: https://localhost:443
   apiUrl: https://generativelanguage.googleapis.com/v1beta/models/
-  fallback_llm: gemini-2.5-pro
+  fallback_llm: gemini-3.1-pro-preview
 
 app:
   worker_name: gemapi.js
